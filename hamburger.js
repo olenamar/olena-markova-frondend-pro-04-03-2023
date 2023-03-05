@@ -21,11 +21,12 @@ class Hamburger{
         price: 15, 
         calories: 20 
     };
-  
+
+    toppings = [];
     constructor(size, stuffing){
         this.size = size;
         this.stuffing = stuffing;
-        this.toppings = [];
+        
     }
   
     addTopping(topping){
